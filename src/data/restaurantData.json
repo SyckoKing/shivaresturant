@@ -1,0 +1,204 @@
+{
+  "restaurant": {
+    "name": "Delicious Bites",
+    "tagline": "Fresh Food, Fast Delivery",
+    "description": "Experience the finest cuisine delivered straight to your doorstep. Our chefs prepare every meal with love and the freshest ingredients.",
+    "heroImage": "https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=1200&h=600&fit=crop",
+    "logo": "🍽️",
+    "contact": {
+      "phone": "+1 (555) 123-4567",
+      "email": "hello@deliciousbites.com",
+      "address": "123 Food Street, Taste City, TC 12345"
+    },
+    "social": {
+      "facebook": "https://facebook.com/deliciousbites",
+      "instagram": "https://instagram.com/deliciousbites",
+      "twitter": "https://twitter.com/deliciousbites"
+    },
+    "deliveryInfo": {
+      "freeDeliveryMinimum": 25,
+      "estimatedTime": "30-45 minutes",
+      "deliveryFee": 2.99
+    }
+  },
+  "categories": [
+    {
+      "id": "appetizers",
+      "name": "Appetizers",
+      "description": "Start your meal right",
+      "icon": "🥗",
+      "color": "bg-gradient-primary"
+    },
+    {
+      "id": "mains",
+      "name": "Main Courses",
+      "description": "Hearty and satisfying",
+      "icon": "🍖",
+      "color": "bg-gradient-secondary"
+    },
+    {
+      "id": "pasta",
+      "name": "Pasta & Pizza",
+      "description": "Italian favorites",
+      "icon": "🍝",
+      "color": "bg-gradient-primary"
+    },
+    {
+      "id": "desserts",
+      "name": "Desserts",
+      "description": "Sweet endings",
+      "icon": "🍰",
+      "color": "bg-gradient-secondary"
+    },
+    {
+      "id": "beverages",
+      "name": "Beverages",
+      "description": "Refresh yourself",
+      "icon": "🥤",
+      "color": "bg-gradient-primary"
+    }
+  ],
+  "menuItems": [
+    {
+      "id": "caesar-salad",
+      "name": "Caesar Salad",
+      "description": "Fresh romaine lettuce, parmesan cheese, croutons, and our signature Caesar dressing",
+      "price": 12.99,
+      "image": "https://images.unsplash.com/photo-1546793665-c74683f339c1?w=400&h=300&fit=crop",
+      "category": "appetizers",
+      "popular": true,
+      "vegetarian": true,
+      "spicyLevel": 0
+    },
+    {
+      "id": "buffalo-wings",
+      "name": "Buffalo Wings",
+      "description": "Crispy chicken wings tossed in spicy buffalo sauce, served with celery and blue cheese",
+      "price": 14.99,
+      "image": "https://images.unsplash.com/photo-1527477396000-e27163b481c2?w=400&h=300&fit=crop",
+      "category": "appetizers",
+      "popular": true,
+      "spicyLevel": 3
+    },
+    {
+      "id": "grilled-salmon",
+      "name": "Grilled Salmon",
+      "description": "Fresh Atlantic salmon grilled to perfection, served with roasted vegetables and lemon butter",
+      "price": 24.99,
+      "image": "https://images.unsplash.com/photo-1467003909585-2f8a72700288?w=400&h=300&fit=crop",
+      "category": "mains",
+      "popular": true,
+      "spicyLevel": 0
+    },
+    {
+      "id": "ribeye-steak",
+      "name": "Ribeye Steak",
+      "description": "Prime cut ribeye steak cooked to your preference, served with mashed potatoes and asparagus",
+      "price": 32.99,
+      "image": "https://images.unsplash.com/photo-1546833999-b9f581a1996d?w=400&h=300&fit=crop",
+      "category": "mains",
+      "spicyLevel": 0
+    },
+    {
+      "id": "chicken-parmesan",
+      "name": "Chicken Parmesan",
+      "description": "Breaded chicken breast topped with marinara sauce and melted mozzarella",
+      "price": 19.99,
+      "image": "https://images.unsplash.com/photo-1565299585323-38174c73f232?w=400&h=300&fit=crop",
+      "category": "mains",
+      "spicyLevel": 1
+    },
+    {
+      "id": "margherita-pizza",
+      "name": "Margherita Pizza",
+      "description": "Classic pizza with fresh mozzarella, basil, and our homemade tomato sauce",
+      "price": 16.99,
+      "image": "https://images.unsplash.com/photo-1604382354936-07c5d9983bd3?w=400&h=300&fit=crop",
+      "category": "pasta",
+      "popular": true,
+      "vegetarian": true,
+      "spicyLevel": 0
+    },
+    {
+      "id": "spaghetti-carbonara",
+      "name": "Spaghetti Carbonara",
+      "description": "Creamy pasta with pancetta, eggs, parmesan cheese, and black pepper",
+      "price": 18.99,
+      "image": "https://images.unsplash.com/photo-1551183053-bf91a1d81141?w=400&h=300&fit=crop",
+      "category": "pasta",
+      "spicyLevel": 0
+    },
+    {
+      "id": "pepperoni-pizza",
+      "name": "Pepperoni Pizza",
+      "description": "Classic pepperoni pizza with mozzarella cheese and our signature sauce",
+      "price": 18.99,
+      "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=400&h=300&fit=crop",
+      "category": "pasta",
+      "popular": true,
+      "spicyLevel": 1
+    },
+    {
+      "id": "chocolate-cake",
+      "name": "Chocolate Cake",
+      "description": "Rich, moist chocolate cake with layers of chocolate ganache",
+      "price": 8.99,
+      "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=400&h=300&fit=crop",
+      "category": "desserts",
+      "vegetarian": true,
+      "spicyLevel": 0
+    },
+    {
+      "id": "tiramisu",
+      "name": "Tiramisu",
+      "description": "Classic Italian dessert with coffee-soaked ladyfingers and mascarpone cream",
+      "price": 9.99,
+      "image": "https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?w=400&h=300&fit=crop",
+      "category": "desserts",
+      "vegetarian": true,
+      "spicyLevel": 0
+    },
+    {
+      "id": "fresh-juice",
+      "name": "Fresh Orange Juice",
+      "description": "Freshly squeezed orange juice, no added sugar",
+      "price": 4.99,
+      "image": "https://images.unsplash.com/photo-1621506289937-a8e4df240d0b?w=400&h=300&fit=crop",
+      "category": "beverages",
+      "vegetarian": true,
+      "spicyLevel": 0
+    },
+    {
+      "id": "iced-coffee",
+      "name": "Iced Coffee",
+      "description": "Cold brew coffee served over ice with your choice of milk",
+      "price": 3.99,
+      "image": "https://images.unsplash.com/photo-1461023058943-07fcbe16d735?w=400&h=300&fit=crop",
+      "category": "beverages",
+      "vegetarian": true,
+      "spicyLevel": 0
+    }
+  ],
+  "features": [
+    {
+      "icon": "🚚",
+      "title": "Fast Delivery",
+      "description": "Get your food delivered in 30-45 minutes"
+    },
+    {
+      "icon": "🍃",
+      "title": "Fresh Ingredients",
+      "description": "We use only the freshest, highest quality ingredients"
+    },
+    {
+      "icon": "👨‍🍳",
+      "title": "Expert Chefs",
+      "description": "Our experienced chefs prepare every dish with care"
+    },
+    {
+      "icon": "💳",
+      "title": "Easy Payment",
+      "description": "Multiple payment options for your convenience"
+    }
+  ]
+}
